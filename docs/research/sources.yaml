@@ -1,0 +1,241 @@
+- id: competition_topic2_pdf
+  title: 2026 FPGA 安路赛道题目二
+  url_or_path: docs/research/snapshots/competition/topic2.pdf
+  type: competition
+  platform: PH1P35
+  related_goals: [1, 3, 6, 8]
+  priority: high
+  status: reviewed
+  accessed_at: 2026-09-21
+  notes: 题目二要求 MIPI 摄像头输入、HDMI 输出、至少一种 FPGA 图像算法和 OSD。
+
+- id: anlogic_ip_reference
+  title: 安路 IP 和参考设计
+  url_or_path: https://www.anlogic.com/support/ip
+  type: official
+  platform: PH1P35
+  related_goals: [1, 2, 3]
+  priority: high
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 查找 PH1P、MIPI、视频接口、DDR 和 MCU 相关 IP 手册及参考设计。
+
+- id: anlogic_camera_solution
+  title: 安路 PH1A 4K 摄像头采集与实时显示方案
+  url_or_path: https://www.anlogic.com/news/company-news/35.html
+  type: official
+  platform: generic
+  related_goals: [1, 3]
+  priority: high
+  status: captured
+  accessed_at: 2026-09-21
+  notes: PH1A 方案，作为视频链路架构参考，不直接证明 PH1P35 资源和 IP 兼容性。
+
+- id: anlogic_camera_solution_card
+  title: 安路摄像头方案资料卡
+  url_or_path: docs/research/anlogic/camera-solution.md
+  type: official
+  platform: generic
+  related_goals: [1, 3]
+  priority: high
+  status: reviewed
+  accessed_at: 2026-09-21
+  notes: 对官方 PH1A 摄像头方案的适配边界整理。
+
+- id: anlogic_board_tutorial
+  title: 安路开发板使用教程
+  url_or_path: https://www.anlogic.com/support/university/development-board
+  type: official
+  platform: generic
+  related_goals: [1, 2]
+  priority: high
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 开发板、工具和例程入口。
+
+- id: mipi_csi2_intro
+  title: MIPI CSI-2 for Multi-Camera
+  url_or_path: https://www.mipi.org/hubfs/Bangalore-Xilinx-MIPI-CSI-2-for-Multi-Camera-1.pdf
+  type: tutorial
+  platform: generic
+  related_goals: [1, 2, 3]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 用于理解 CSI-2、Lane 和 FPGA 摄像头接入。
+
+- id: linux_raw_bayer
+  title: Linux IPU3 RAW Bayer 文档
+  url_or_path: https://docs.kernel.org/admin-guide/media/ipu3.html
+  type: tutorial
+  platform: generic
+  related_goals: [2, 3]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 用于理解 packed RAW Bayer 和 RAW10，不作为安路驱动依据。
+
+- id: projectf_video_timings
+  title: Project F Video Timings
+  url_or_path: https://projectf.io/posts/video-timings-vga-720p-1080p/
+  type: tutorial
+  platform: generic
+  related_goals: [1, 2]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 用于理解 720p/1080p 时序和像素时钟。
+
+- id: github_fhdo_mipi_hdmi
+  title: FHDO-ICLAB MIPI-CSI-2-HDMI-Bridge
+  url_or_path: https://github.com/FHDO-ICLAB/MIPI-CSI-2-HDMI-Bridge
+  type: github
+  platform: gatemate
+  related_goals: [1, 2]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: MIPI CSI-2 到 DVI/HDMI 演示工程，适合架构学习，不直接移植。
+
+- id: github_circuitvalley_mipi
+  title: circuitvalley MIPI CSI-2 Receiver FPGA
+  url_or_path: https://github.com/circuitvalley/mipi_csi_receiver_FPGA
+  type: github
+  platform: lattice
+  related_goals: [1, 2]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 通用 MIPI 接收结构参考，仓库 README 标注为 Legacy。
+
+- id: github_georgeyhere_video
+  title: georgeyhere FPGA Video Processing
+  url_or_path: https://github.com/georgeyhere/fpga-video-processing
+  type: github
+  platform: xilinx
+  related_goals: [3, 4]
+  priority: high
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 灰度、Gaussian、Sobel、FIFO、Framebuffer 和 HDMI 的完整教学型工程。
+
+- id: github_galapple_sobel
+  title: Galapple Image Processing Verilog
+  url_or_path: https://github.com/Galapple/Image-processing---Verilog
+  type: github
+  platform: xilinx
+  related_goals: [4]
+  priority: high
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 4 行缓存、3x3 窗口、Sobel 卷积和输出 FIFO。
+
+- id: github_camera_filters
+  title: olivier-le-sage camera-filters
+  url_or_path: https://github.com/olivier-le-sage/camera-filters
+  type: github
+  platform: xilinx
+  related_goals: [3, 7]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: MIPI 到 HDMI 中间插入颜色增强和定点变换，主要为 VHDL。
+
+- id: github_hdl_util_hdmi
+  title: hdl-util HDMI
+  url_or_path: https://github.com/hdl-util/hdmi
+  type: github
+  platform: generic
+  related_goals: [1, 2, 6]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: HDMI/DVI 视频输出和 720p 像素时钟参考；平台支持不包含 PH1P35。
+
+- id: github_hdl_util_mipi_demo
+  title: hdl-util MIPI Demo
+  url_or_path: https://github.com/hdl-util/mipi-demo
+  type: github
+  platform: generic
+  related_goals: [1, 2]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: MIPI CSI-2 和 MIPI CCS 协议示例。
+
+- id: github_gatecat_csirx
+  title: gatecat CSI2Rx
+  url_or_path: https://github.com/gatecat/CSI2Rx
+  type: github
+  platform: xilinx
+  related_goals: [1, 2]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 开源 CSI-2 Receiver，主要用于协议和模块划分学习。
+
+- id: github_ykqiu_image_processing
+  title: ykqiu image-processing
+  url_or_path: https://github.com/ykqiu/image-processing
+  type: github
+  platform: unknown
+  related_goals: [3, 4]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: 流水线图像处理和 HDMI 适配参考。
+
+- id: github_simplevout
+  title: cliffordwolf SimpleVOut
+  url_or_path: https://github.com/cliffordwolf/SimpleVOut
+  type: github
+  platform: generic
+  related_goals: [1, 2, 6]
+  priority: medium
+  status: captured
+  accessed_at: 2026-09-21
+  notes: VGA/DVI/HDMI/OpenLDI 输出和简单 Overlay 参考。
+
+- id: anlogic_ph1p_product_20260926
+  title: 安路 PH1P 产品选型表
+  url_or_path: https://www.anlogic.com/product/fpga/phoenix/ph1p
+  type: official
+  platform: PH1P35MDG324
+  related_goals: [1, 2, 4]
+  priority: high
+  status: reviewed
+  accessed_at: 2026-09-26
+  notes: 器件标称资源和 MIPI D-PHY 数量；不证明板卡接线与工程配置。
+
+- id: smartsens_sc500cs_flyer_v4
+  title: SmartSens SC500CS Product Flyer V4.0
+  url_or_path: https://smartsens.oss-cn-beijing.aliyuncs.com/web/products/SC500CS_V4.0.pdf
+  type: official
+  platform: SC500CS
+  related_goals: [1, 3]
+  priority: high
+  status: reviewed
+  accessed_at: 2026-09-26
+  notes: 第2页列传感器产品能力；不是寄存器数据手册，也不证明当前模组工作模式。
+
+- id: hx1p35a_contest_202606_share
+  title: HX1P35A_Contest_202606 资料包分享入口
+  url_or_path: https://pan.baidu.com/s/12hjB7BiAxT3CIVqzh4Amnw?pwd=Q614
+  type: competition-package
+  platform: HX1P35A
+  related_goals: [1, 2, 3, 8]
+  priority: high
+  status: listing_verified_package_not_obtained
+  accessed_at: 2026-09-26
+  notes: 链接和提取码 Q614 出自本地比赛指南快照 PDF 第8页；在线目录可见，见 preboard/06-package-manifest.md；包体与工程内容未取得。
+
+- id: anlogic_tangdynasty_product_20260926
+  title: 安路 TangDynasty 产品页
+  url_or_path: https://www.anlogic.com/product/software/1.html
+  type: official
+  platform: generic
+  related_goals: [1, 2, 8]
+  priority: medium
+  status: reviewed
+  accessed_at: 2026-09-26
+  notes: 仅证实 TD 工具用途；本机版本、安装和许可状态待核对。

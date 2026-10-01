@@ -1,0 +1,23 @@
+# Local tools, browser captures, and agent state
+.codex/
+.firecrawl/
+.superpowers/
+.tools/
+
+# Original vendor packages and extracted reference projects are kept locally.
+# Their generated TD files include large bitstreams and machine-specific paths.
+/安路HX1P35A比赛文档2026/
+/SC520CS摄像头资料/
+
+# Generated outputs and local scratch data
+preboard/output/
+preboard/inbox/*
+!preboard/inbox/README.md
+__pycache__/
+*.pyc
+*.log
+*.logw
+*.bit
+*.db
+.DS_Store
+Thumbs.db
