@@ -1,6 +1,9 @@
+param([switch]$ClockFix)
+
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $tdExe = Join-Path $repoRoot '.tools\td\app\bin\td.exe'
-$project = Join-Path $repoRoot '.tools\td\work\lab_ex1_mipi_hdmi_sc520\td_project\camera_to_dsi_display.al'
+$workName = if ($ClockFix) { 'lab_ex1_mipi_hdmi_sc520_clockfix' } else { 'lab_ex1_mipi_hdmi_sc520' }
+$project = Join-Path $repoRoot ".tools\td\work\$workName\td_project\camera_to_dsi_display.al"
 
 if (-not (Test-Path -LiteralPath $tdExe)) {
     throw "TangDynasty 6.2.1 is missing: $tdExe"

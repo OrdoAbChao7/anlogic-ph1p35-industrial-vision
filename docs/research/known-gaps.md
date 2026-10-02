@@ -16,6 +16,7 @@
 | DDR 像素格式、仲裁和帧缓存深度 | Goal 1/4 帧缓存 | PH1P35 DDR IP 手册和官方例程 | 待补 |
 | HDMI IP、PLL、TMDS 和板级连接 | Goal 1/8 视频输出 | 开发板原理图、HDMI IP 手册和例程 | 待补 |
 | SC520CS I2C 控制时钟和初始化时序 | Goal 1 摄像头启动 | Sensor 手册、模组资料、例程和上板记录 | 待验证 |
+| SC520 时钟修复副本的 MCLK、I2C 功能及普通时钟告警 | Goal 1 上板稳定性 | `../setup/tangdynasty.md`、时钟报告和板级测量 | 软件构建通过，待上板 |
 
 ## 缺口处理规则
 
