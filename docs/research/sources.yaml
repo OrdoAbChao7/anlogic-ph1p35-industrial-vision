@@ -1,3 +1,14 @@
+- id: local_sc520_lab1
+  title: 本机 SC520CS Lab1 原图工程及传感器资料
+  url_or_path: SC520CS摄像头资料/
+  type: project
+  platform: PH1P35
+  related_goals: [1, 2, 3]
+  priority: high
+  status: local_copy
+  accessed_at: 2026-10-02
+  notes: 用户确认购买 SC520；Lab1 顶层实例化 uicfgcs520，软件构建结果见 docs/setup/tangdynasty.md；来源资料和配置仍待上板核对。
+
 - id: competition_topic2_pdf
   title: 2026 FPGA 安路赛道题目二
   url_or_path: docs/research/snapshots/competition/topic2.pdf

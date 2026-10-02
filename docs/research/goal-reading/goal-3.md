@@ -2,11 +2,11 @@
 
 ## 目标
 
-确认 SC500CS 的 RAW 位宽、Bayer 顺序和 Demosaic 输出后，在正确的像素接口上加入 RGB 转灰度和阈值二值化。
+确认 SC520CS 的 RAW 位宽、Bayer 顺序和 Demosaic 输出后，在正确的像素接口上加入 RGB 转灰度和阈值二值化。
 
 ## 必读资料
 
-- [SC500CS](../camera/sc500cs.md)
+- [SC520CS 当前目标](../camera/sc520cs.md)
 - [RAW10 和 Bayer](../camera/raw10-bayer.md)
 - [灰度和二值化](../algorithms/grayscale-threshold.md)
 - [camera-filters](../github/selected-projects/camera-filters.md)

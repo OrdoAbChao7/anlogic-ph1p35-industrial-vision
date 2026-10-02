@@ -2,7 +2,7 @@
 
 ## 目标
 
-实现 `SC500CS → MIPI → PH1P35 → HDMI → 显示器` 的稳定视频闭环。
+实现 `SC520CS → MIPI → PH1P35 → HDMI → 显示器` 的稳定视频闭环。
 
 ## 必读资料
 
@@ -12,6 +12,7 @@
 - [MIPI CSI-2](../mipi-video/mipi-csi2.md)
 - [HDMI 时序](../mipi-video/hdmi-timing.md)
 - [视频链路一致性检查](../mipi-video/link-consistency.md)
+- [SC520CS 当前目标](../camera/sc520cs.md)
 
 ## 选读资料
 
@@ -24,7 +25,7 @@
 
 ## 前置知识
 
-无。只需要准备 PH1P35 开发板、SC500CS、HDMI 显示器、下载器和官方工程资料；MIPI、HDMI、时钟和复位概念在本 Goal 中边做边学。
+无。只需要准备 PH1P35 开发板、SC520CS 模组及匹配的 FPC、HDMI 显示器、下载器和工程资料；MIPI、HDMI、时钟和复位概念在本 Goal 中边做边学。
 
 ## 通过标准
 

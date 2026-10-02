@@ -2,14 +2,14 @@
 
 ## 项目目标
 
-完成 `SC500CS → MIPI CSI-2 → PH1P35 → 图像处理 → HDMI` 的实时数字图像处理系统，并逐步扩展到目标测量、缺陷判断和 OSD 展示。
+完成 `SC520CS → MIPI CSI-2 → PH1P35 → 图像处理 → HDMI` 的实时数字图像处理系统，并逐步扩展到目标测量、缺陷判断和 OSD 展示。
 
 ## 资料分层
 
 | 层级 | 内容 | 使用方式 |
 |---|---|---|
 | L1 | PH1P35、TD、比赛题目和安路官方 IP | 实现依据 |
-| L2 | SC500CS、MIPI、RAW10、HDMI、DDR 原理资料 | 理解和排错 |
+| L2 | SC520CS、MIPI、RAW/Bayer、HDMI、DDR 原理资料 | 理解和排错 |
 | L3 | 灰度、二值化、Sobel、Line Buffer、目标统计 | 算法依据 |
 | L4 | GitHub 参考工程 | 学习结构和验证方法 |
 | L5 | 本项目实验记录 | 当前工程事实 |
@@ -33,6 +33,7 @@
 - [TD 工具资料](anlogic/td-tool.md)
 - [安路 IP 和参考设计](anlogic/ip-reference.md)
 - [SC500CS](camera/sc500cs.md)
+- [SC520CS 当前目标](camera/sc520cs.md)
 - [RAW10 和 Bayer](camera/raw10-bayer.md)
 - [MIPI CSI-2](mipi-video/mipi-csi2.md)
 - [HDMI 时序](mipi-video/hdmi-timing.md)
