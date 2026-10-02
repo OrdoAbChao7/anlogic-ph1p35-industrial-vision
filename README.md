@@ -15,6 +15,7 @@
 - [到板前准备包](preboard/README.md)
 - [官方资料包文件清单](preboard/06-package-manifest.md)
 - [TD 本机环境与构建记录](docs/setup/tangdynasty.md)
+- [从现在到提交的详细操作手册（新手版）](docs/setup/beginner-project-guide.md)
 - [SC520CS 资料与验证边界](docs/research/camera/sc520cs.md)
 
 打开本机 SC520CS Lab1 工程：
