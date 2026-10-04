@@ -36,6 +36,6 @@
 2. 检查 sources.yaml 的来源是否有重复或缺少平台标记；
 3. 检查 Goal 1～8 是否都有核心资料；
 4. 检查非 PH1P35 工程是否标记为参考用途；
-5. 检查 SC500CS、PH1P35、TD、MIPI、DDR、HDMI 的缺口；
+5. 检查 SC520CS、PH1P35、TD、MIPI、DDR、HDMI 的缺口；
 6. 输出下一步最应该补齐的资料。
 ```
