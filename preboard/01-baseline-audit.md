@@ -6,9 +6,9 @@
 | --- | --- | --- |
 | 比赛题目文件 | 本地 35 页 PDF：`docs/research/snapshots/competition/topic2.pdf`，1,592,860 字节，SHA-256 `51BB865F89BFC00D05E653F69CDD095103F8CE800F3DB9529A5CE54E1401C418`。封面为 2026；题目二要求在 PDF 第 16–18 页。原始线上下载地址尚未核验。 | C1；project（快照存在），official 内容待来源链核验 |
 | 板卡与目标器件 | 2026 题目二第 16 页指定推荐板卡 `HX1P35A`、主芯片 `PH1P35MDG324`；当前实物修订版待到货确认。 | C1 第 16 页；A1；official/unknown |
-| 摄像头 | 指南第 7 页平台配件写 `SC500CS`；第 16 页题目要求只写 MIPI 摄像头。项目选用 SC500CS；模组修订、工作模式和寄存器表未取得。 | C1 第 7、16 页；S1；project/unknown |
+| 摄像头 | 指南第 7 页平台配件写 `SC500CS`；第 16 页题目要求只写 MIPI 摄像头。项目选用 SC520CS；模组修订、工作模式和寄存器表未取得。 | C1 第 7、16 页；S1；project/unknown |
 | 官方板卡资料包 | 指南第 8 页给出 `HX1P35A_Contest_202606` 百度网盘分享及提取码 `Q614`；已读到网页目录及样例 ZIP 文件名，见 `06-package-manifest.md`。任何包体与 SHA-256 均未取得。 | C1 第 8 页；B1；目录已核/内容 unknown |
-| 官方样例 | 指南第 8 页描述 `lab_ex_1` 原图链路、`lab_ex_2` 边缘检测、`lab_ex_3` Logo 与计数；分享目录对应 `lab_ex1_mipi_hdmi_SC500_720P.zip`、`lab_ex2_edge_SC500_720P.zip`、`lab_ex3_osd_SC500_720P.zip`。样例源码尚未取得。 | C1 第 8 页；B1 目录；unknown 工程 |
+| 官方样例 | 指南第 8 页描述 `lab_ex_1` 原图链路、`lab_ex_2` 边缘检测、`lab_ex_3` Logo 与计数；分享目录中的旧型号命名样例仅作历史参考，样例源码尚未取得。 | C1 第 8 页；B1 目录；unknown 工程 |
 | TD 安装与授权 | 本机 PATH、卸载登记及常见目录未发现 TD；具体安装位置、版本、License 状态未核实。官方产品入口已收录。 | 本机检查；A3；project/unknown |
 | 到板前验证工具 | 本机 `Python 3.13.7` 可运行；PATH 中未找到 `iverilog`、`vvp`、`verilator`、`yosys`、`gtkwave`。这只说明当前命令环境不可直接调用这些工具。 | `Get-Command`、`python --version`；project |
 | 顶层、RTL、约束、IP、构建入口 | 当前工作区文件清单只含 `docs/research/`、`preboard/` 及配置；没有发现 TD 工程、RTL、约束、IP 配置或构建脚本。 | `rg --files` 与根目录清单；project |
