@@ -24,9 +24,9 @@ python .\reference_model.py --input .\examples\step.pgm --out-dir .\output --thr
 
 2026-10-02 更新：用户已购 SC520CS；当前目标及 TD 6.2.1 的 SC520 Lab1 软件构建记录见 [`../docs/setup/tangdynasty.md`](../docs/setup/tangdynasty.md)。以下 2026-09-26 盘点文字保留为历史快照。
 
-2026-09-26 盘点结果：本地已有比赛指南快照，已定位 HX1P35A 资料包的公开分享入口、目录清单及 SC500CS 产品规格；工作区尚无官方工程、RTL、约束、IP 配置或构建报告。网盘只核到了在线文件名，资料包仍标为未取得。具体证据见 `01-baseline-audit.md`。
+2026-09-26 盘点结果：本地已有比赛指南快照，已定位 HX1P35A 资料包的公开分享入口、目录清单及 传感器产品规格；工作区尚无官方工程、RTL、约束、IP 配置或构建报告。网盘只核到了在线文件名，资料包仍标为未取得。具体证据见 `01-baseline-audit.md`。
 
-- 本包不填写 SC500CS 寄存器、RAW 位宽、Bayer 顺序、Lane 数量、IP 端口、DDR 布局、PLL、HDMI 或管脚参数。
+- 本包不填写 SC520CS 寄存器、RAW 位宽、Bayer 顺序、Lane 数量、IP 端口、DDR 布局、PLL、HDMI 或管脚参数。
 - `reference_model.py` 只处理明确约定的 8 位灰度图；它不是摄像头 ISP 模型，也不证明 RTL 或 PH1P35 的行为。
 - 本包中的表格是待填写模板。每条结论需标注 `official`、`project`、`measured`、`reference`、`inferred` 或 `unknown`，并附文件、页码或实验记录。
 
