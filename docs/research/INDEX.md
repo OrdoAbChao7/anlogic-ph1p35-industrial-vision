@@ -32,7 +32,6 @@
 - [PH1P35 资料](anlogic/ph1p35.md)
 - [TD 工具资料](anlogic/td-tool.md)
 - [安路 IP 和参考设计](anlogic/ip-reference.md)
-- [SC500CS](camera/sc500cs.md)
 - [SC520CS 当前目标](camera/sc520cs.md)
 - [RAW10 和 Bayer](camera/raw10-bayer.md)
 - [MIPI CSI-2](mipi-video/mipi-csi2.md)
